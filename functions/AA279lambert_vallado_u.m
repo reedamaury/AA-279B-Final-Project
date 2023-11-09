@@ -58,7 +58,7 @@
 % Following line commented out by Barrows 1/2014
 %function [vo,v,errorl] = lambertu ( ro,r, dm, nrev, dtsec,fid )
 % Following line added by Barrows 4/2015 (function renamed; v1_out, v2_out, mu, r1_in, and r2_in added; vo, v, ro, r, and fid removed)
-function [v1_out,v2_out,errorl] = AA279lambert_vallado_u ( mu, r1_in,r2_in, dm, nrev, dtsec )
+function [v1_out,v2_out,errorl] = AA279lambert_vallado_u (mu, r1_in, r2_in, dm, nrev, dtsec)
 
 % -------------------------  implementation   -------------------------
 % Following line commented out by Barrows 1/2014
